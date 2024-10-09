@@ -18,7 +18,7 @@ app.use(cors(corsOptions));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-const mysql = require("mysql"); //
+const mysql = require("mysql"); 
 
 require("dotenv").config();
 

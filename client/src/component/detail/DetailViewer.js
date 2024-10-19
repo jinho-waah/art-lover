@@ -369,7 +369,7 @@ const DetailViewer = ({ show, color, tags }) => {
   const {
     data: galleryInfo,
     error,
-    isLoading,
+    isPending,
   } = useQuery({
     queryKey: ["galleryInfo", gallery], // queryKey는 고유하게 설정
     queryFn: () => fetchGalleryInfo(gallery), // queryFn에서 데이터를 가져오는 함수 실행
